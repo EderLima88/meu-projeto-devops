@@ -36,4 +36,5 @@ fi
 
 #echo "$(ping -c 1 $1)"
 
+echo "[OK] Tempo ligado: $(uptime -p)"
 echo "=== Fim do health check ==="
